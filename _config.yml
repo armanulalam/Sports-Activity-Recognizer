@@ -1,0 +1,9 @@
+remote_theme: daattali/beautiful-jekyllt@master
+plugins:
+- jekyll-remote-theme
+
+title: Sports Activity Recognizer
+description: An image crecognition API that recognizes 15 different types of sports.
+
+author:
+  name: Armanul Alam
