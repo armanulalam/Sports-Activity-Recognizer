@@ -1,1 +1,1 @@
-## Sports Activity Recognizer
+## Sports-Activity-Recognizer
