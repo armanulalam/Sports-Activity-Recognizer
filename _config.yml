@@ -1,4 +1,4 @@
-remote_theme: daattali/beautiful-jekyllt@master
+remote_theme: mmistakes/jekyll-theme-skinny-bones@master
 plugins:
 - jekyll-remote-theme
 
