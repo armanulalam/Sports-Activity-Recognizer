@@ -1,4 +1,4 @@
-remote_theme: mmistakes/jekyll-theme-skinny-bones@master
+remote_theme: daviddarnes/alembic@main
 plugins:
 - jekyll-remote-theme
 
