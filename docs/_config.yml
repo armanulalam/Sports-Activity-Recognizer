@@ -1,4 +1,4 @@
-remote_theme: CloudCannon/cause-jekyll-template@main
+remote_theme: raviriley/agency-jekyll-theme@master
 plugins:
 - jekyll-remote-theme
 
