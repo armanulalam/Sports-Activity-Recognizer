@@ -1,4 +1,4 @@
-theme: merlot
+theme: jekyll-theme-merlot
 plugins:
 - jekyll-remote-theme
 
