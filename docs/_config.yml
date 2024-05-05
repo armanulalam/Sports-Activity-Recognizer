@@ -1,4 +1,4 @@
-remote_theme: dieghernan/chulapa
+remote_theme: dieghernan/chulapa@master
 plugins:
 - jekyll-remote-theme
 
