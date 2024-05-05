@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-# Image Recognizer 
+# Sports Activity Recognizer 
 Can classify 15 different types of sports<br/>
 The types are following: <br/>
 1. archery
