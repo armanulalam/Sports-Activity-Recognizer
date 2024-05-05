@@ -1,4 +1,4 @@
-remote_theme: al-folio@master
+remote_theme: daviddarnes/garth@master
 plugins:
 - jekyll-remote-theme
 
