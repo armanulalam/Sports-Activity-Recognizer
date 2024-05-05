@@ -1,4 +1,4 @@
-remote_theme: dieghernan/chulapa@master
+remote_theme: yaoyao-liu/minimal-light@main
 plugins:
 - jekyll-remote-theme
 
