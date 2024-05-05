@@ -4,7 +4,7 @@ layout: page
 ---
 
 # Sports Activity Recognizer 
-Can classify 15 different types of sports<br/>
+This web app can classify 15 different types of sport activites<br/>
 The types are following: <br/>
 1. archery
 2. baseball swing
