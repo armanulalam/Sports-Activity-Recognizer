@@ -30,7 +30,7 @@ The types are following:
 **Data Cleaning:** This part was the most time consuming part of this project. I cleaned the data based on the Confusion Matrix scores four times. At the very beginning, there was a lot of noise and irrelevant data in my dataset. Using the fastai ImageClassifierCleaner, I updated and cleaned the dataset. With the exception of the final iteration, which produced the final version of the model, I purged the data after every training or fine-tuning iteration.
 
 ## Model Deployment
-After training the model and cleaning the data I deployed ```sports-action-recognizer-version3.pkl``` into HuggingFace Spaces Gradio App. The implementation can be found in deployment folder or [here](https://huggingface.co/spaces/Armanul/sports-activity-recognizer)
+After training the model and cleaning the data I deployed the final model ```sports-action-recognizer-version3.pkl``` into HuggingFace Spaces Gradio App. The implementation can be found in deployment folder or [here](https://huggingface.co/spaces/Armanul/sports-activity-recognizer)
 
 <img width="858" alt="huggingface" src="https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/91de728a-fc81-4149-b32f-393df3694847">
 
