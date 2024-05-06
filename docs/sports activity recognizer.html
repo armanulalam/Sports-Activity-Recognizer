@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Activity Recognizer</title>
+</head>
+<body>
+    <div class="home">
+        <a class="logo" href="index.html">Home<span></span></a>
+        <h1>Welcome to my Sports Activity Recognizer Web App</h1>
+    </div>
+    <div class="recognizer">
+        <h2>Sports Activity Recognizer</h2>
+        <input id="photo" type="file">
+        <div id="results"></div>
+        <script type = "module">
+            import { client } from "https://cdn.jsdelivr.net/npm/@gradio/client@0.1.4/dist/index.min.js";
+            
+            async function loaded(reader) {  
+                const app = await client("https://armanul-sports-activity-recognizer.hf.space/--replicas/us1ey/");
+                const response = await app.predict("/predict", [reader.result]);
+                const label = response['data'][0]['label'];
+                results.innerHTML = `<br/> <img src = "${reader.result}" width="500"> <p>${label}</p>`;
+            }
+            function read() {
+                const reader = new FileReader();
+                reader.addEventListener('load', () => loaded(reader))
+                reader.readAsDataURL(photo.files[0]);
+            }
+            photo.addEventListener('input', read);    
+        </script>
+    </div>
+</body>
+</html>
