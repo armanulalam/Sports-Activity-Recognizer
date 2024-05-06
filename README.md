@@ -42,4 +42,4 @@ Finally, I made a simple two page website using HTML,CSS and JavaScript where I 
 
 <img width="524" alt="website_images2" src="https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/1198b937-707b-4c7e-81e6-f15e17d9ea3b">
 
-
+If you have any further queries then you can send me an email to armaanularmaan@gmail.com
