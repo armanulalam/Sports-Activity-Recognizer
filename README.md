@@ -35,7 +35,7 @@ After training the model and cleaning the data I deployed my model into HuggingF
 <img width="858" alt="huggingface" src="https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/91de728a-fc81-4149-b32f-393df3694847">
 
 ## API Integration With Website
-Finally, I made a simple two page website using HTML,CSS and JavaScript where I integrated the model API [here](https://armanulalam.github.io/Sports-Activity-Recognizer/) and I used Github Pages to host my website. Implementation and other details can be found in ```docs``` folder.
+Finally, I made a simple two page website using HTML, CSS and JavaScript where I integrated the model API [here](https://armanulalam.github.io/Sports-Activity-Recognizer/) and I used Github Pages to host my website. Implementation and other details can be found in ```docs``` folder.
 
 <img width="875" alt="website_images1" src="https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/14d97452-129b-41c4-b655-1753230e1292">
 
