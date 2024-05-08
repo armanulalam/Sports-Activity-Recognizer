@@ -23,7 +23,7 @@ The types are following:
 
 `Python version 3.10 or 3.11 is required.`
 
-To get started with the IC Photography Styles project, follow these steps:
+To get started with the project, follow these steps:
 
 1. Clone the project repository from GitHub
 
