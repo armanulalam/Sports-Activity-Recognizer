@@ -42,7 +42,7 @@ To get started with the project, follow these steps:
 5. Now, you can identify the photography style of any image by executing the following commands:
 
     ```powershell
-    cd .\app\
+    cd .\deployment\
     python app.py
     ```
 
