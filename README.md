@@ -1,5 +1,7 @@
 ## Sports-Activity-Recognizer
-I used fastai and ResNet50 model and **error_rate and accuracy** as metrics to develop this image recognition project with **~98.5% accuracy**.The ultimate goal of this project is to distinguish the 15 most popular different types of **Sports Activities** around the world.<br/>
+I used fastai and ResNet50 model and **error_rate and accuracy** as metrics to develop this image recognition project with **~98.5% accuracy**.
+## Goal of the Project
+The ultimate goal of this project is to distinguish the 15 most popular different types of **Sports Activities** around the world.<br/>
 The types are following:
 1. archery
 2. baseball swing
@@ -16,6 +18,35 @@ The types are following:
 13. soccer kick
 14. surfing cutback
 15. volleyball spike
+
+## Get Started
+
+`Python version 3.10 or 3.11 is required.`
+
+To get started with the IC Photography Styles project, follow these steps:
+
+1. Clone the project repository from GitHub
+
+    ```powershell
+    git clone https://github.com/armanulalam/Sports-Activity-Recognizer.git
+    ```
+
+2. Set up the required dependencies and libraries by executing the following command:
+
+    ```powershell
+    pip install -r requirements.txt
+    ```
+
+3. Obtain a dataset of images representing the 25 photography styles by executing the following notebook: [data_preprocessing.ipynb](notebooks/data_preparation.ipynb).
+4. Train the machine learning model using the dataset by executing the following notebook: [modelTraining_and_dataCleaning.ipynb](notebooks/modelTraining_and_dataCleaning.ipynb).
+5. Now, you can identify the photography style of any image by executing the following commands:
+
+    ```powershell
+    cd .\app\
+    python app.py
+    ```
+
+   Or you can visit [Hugging Face Space: Armanul/sports-activity-recognizer](https://huggingface.co/spaces/Armanul/sports-activity-recognizer)) to recognize different types of sports activity.
 
 ## Dataset Preparation
 **Data Collection:** I collected the necessary data from DuckDuckGo using the label name.<br/>
