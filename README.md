@@ -1,5 +1,5 @@
 ## Sports-Activity-Recognizer
-I used fastai and ResNet50 model and **error_rate and accuracy** as metrics to develop this image recognition project with **~98.5% accuracy**.Moreover, this project was developed based on more than 4k data.
+I used fastai and ResNet50 model and **error_rate and accuracy** as metrics to develop this image recognition project with **~98.5% accuracy**.Moreover, this project was developed on more than 4.5k data.
 ## Goal of the Project
 The ultimate goal of this project is to distinguish the 15 most popular different types of **Sports Activities** around the world.<br/>
 The types are following:
