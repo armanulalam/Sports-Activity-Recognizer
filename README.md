@@ -39,10 +39,13 @@ After training the model and cleaning the data I deployed the final model ```spo
 ## API Integration With Website
 Finally, I made a simple two page website using HTML, CSS and JavaScript where I integrated the model API [here](https://armanulalam.github.io/Sports-Activity-Recognizer/) and I used Github Pages to host my website. Implementation and other details can be found in ```docs``` folder.
 
-<img width="875" alt="website_images1" src="https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/14d97452-129b-41c4-b655-1753230e1292">
+![index page](https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/bad0d8bb-c62b-4ffe-8c61-79890578d20e)
 
 
-<img width="524" alt="website_images2" src="https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/1198b937-707b-4c7e-81e6-f15e17d9ea3b">
+![output_page](https://github.com/armanulalam/Sports-Activity-Recognizer/assets/65443530/de6dadb7-d79f-451f-a46c-4a35bea986fb)
+
+
+
 
 ## Get Started
 
