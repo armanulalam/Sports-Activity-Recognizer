@@ -66,8 +66,8 @@ To get started with the project, follow these steps:
     ```
 
 3. Obtain a dataset of images representing the 15 sports activities by executing the following notebook: [data_preparation.ipynb](notebooks/data_preparation.ipynb).
-4. Train the machine learning model using the dataset by executing the following notebook: [modelTraining_and_dataCleaning.ipynb](notebooks/modelTraining_and_dataCleaning.ipynb).
-5. Now, you can identify the photography style of any image by executing the following commands:
+4. Train the model using the dataset by executing the following notebook: [modelTraining_and_dataCleaning.ipynb](notebooks/modelTraining_and_dataCleaning.ipynb).
+5. Now, you can identify the sports activity of any image by executing the following commands:
 
     ```powershell
     cd .\deployment\
