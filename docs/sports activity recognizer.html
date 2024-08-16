@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sports Activity Recognizer</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="home">
+    <a class="logo" href="index.html">Home<span></span></a>
+    <h1>Welcome to my Sports Activity Recognizer Web App</h1>
+  </div>
+
+  <!--     <br/> <img src = "${reader.result}" width="500"> <p>This image represents <b style="font-size:large;">${label}</b></p> -->
+
+
+  <div class="recognizer">
+    <h2>Sports Activity Recognizer</h2>
+    <input id="photo" type="file">
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content flex-col lg:flex-row" id="results">
+        
+        
+      </div>
+    </div>
+    <script type="module">
+      import { client } from "https://cdn.jsdelivr.net/npm/@gradio/client@0.1.4/dist/index.min.js";
+
+      async function loaded(reader) {
+        const app = await client("https://armanul-sports-activity-recognizer.hf.space/--replicas/us1ey/");
+        const response = await app.predict("/predict", [reader.result]);
+        const label = response['data'][0]['label'];
+        results.innerHTML = `
+          <img src="${reader.result}" class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">${label}</h1>
+          </div>
+               `;
+      }
+      function read() {
+        const reader = new FileReader();
+        reader.addEventListener('load', () => loaded(reader))
+        reader.readAsDataURL(photo.files[0]);
+      }
+      photo.addEventListener('input', read);    
+    </script>
+  </div>
+</body>
+
+</html>
